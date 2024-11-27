@@ -1,71 +1,59 @@
-# RBAC-UI
+RBAC-UI
 User Management Role-Based Access Control (RBAC) System
-Role-Based Access Control (RBAC) Interface
-This project presents a User Management System created using React-JS, offering an interface for managing users and roles. It includes features for adding, editing, and removing users and roles, all organized in a table layout. Each user has attributes like name, email, role, and status (active/inactive). The application utilizes localStorage to ensure data remains available even after refreshing the page.
+RBAC-UI is a React-JS application that provides an intuitive interface for managing users, roles, and permissions in a Role-Based Access Control (RBAC) system. The project focuses on user-friendliness, responsiveness, and maintaining data persistence with localStorage.
 
-Overview of the Project
-This project focuses on building a frontend application for managing users, roles, and their associated permissions in a role-based system.
-It equips administrators with tools to:
+Overview
+This project is a frontend-only solution for handling user and role management, with features for adding, editing, and removing users and roles. Administrators can seamlessly view and assign roles with permissions while ensuring a clear, responsive, and organized workflow.
 
-Efficiently view and assign roles and permissions to users.
-Focus on responsive design, user-friendliness, and clear workflows for seamless role and permission handling.
 Key Features
-User Management: Perform actions like adding, editing, and removing users. Assign specific roles and update their status (Active/Inactive).
-Role Management: Define or modify roles with permissions such as Read, Write, and Delete. Customize role attributes for flexibility.
-Permission Control: Dynamically configure and assign permissions, with a clear visual display for easy understanding.
-Mock API Simulation: Mimics API calls for user and role operations. Simulated responses provide a real-time experience.
-Add, Edit, Delete Functions: Add new users, modify existing ones, and delete records with simple, intuitive controls.
-Responsiveness: Designed for compatibility across desktop and mobile platforms, ensuring smooth interaction on any device.
+User Management: Add, edit, or remove users. Assign roles and update user status (Active/Inactive).
+Role Management: Define roles and assign permissions like Read, Write, and Delete. Customize role attributes for flexibility.
+Permission Control: Dynamically assign and visualize permissions for better understanding.
+Mock API Simulation: Simulates API responses to provide a real-time experience.
+Responsive Design: Compatible across desktop and mobile platforms for smooth interaction.
+Persistent Storage: Uses localStorage to retain user and role data across sessions.
 Technologies Implemented
 Frontend Framework: React
-Styling: Tailwind CSS for modern and responsive designs
-State Management: React hooks such as useState and useReducer
-Mock API: Implemented using JSON or local JavaScript functions
-LocalStorage Integration: User and role data persistence through the browser's localStorage
+Styling: Tailwind CSS
+State Management: React hooks (e.g., useState, useReducer)
+Mock API: Simulated with JSON or local JavaScript functions
+LocalStorage Integration: For data persistence
 Setup and Installation
-To use this project locally, follow the steps below:
+Follow the steps below to set up and run the project locally.
 
-Prerequisites:
+Prerequisites
 Ensure Node.js and npm are installed.
-Steps:
-Clone the repository:
-
+Steps
+Clone the Repository:
 bash
 Copy code
 git clone https://github.com/dubeyhars/RBAC-UI.git
-Install dependencies:
-
+Install Dependencies:
 bash
 Copy code
 npm install
-Run the application:
-
+Run the Application:
 bash
 Copy code
 npm start
-The app will launch in development mode. Access it in your browser at http://localhost:3000.
-
+Access the app in your browser at http://localhost:3000.
 How It Works
-Add Role:
-
+Add a Role
 Navigate to the Role Management section.
-Click the Add Role button and define a role (e.g., Admin, Editor).
-Assign appropriate permissions (Read, Write, Delete) and save the role.
-Add User:
-
+Click Add Role and define a role (e.g., Admin, Editor).
+Assign permissions (Read, Write, Delete) and save the role.
+Add a User
 Open the User Management section.
-Click Add User and fill out the form with the user's details.
-Assign a role from the dropdown and set the user’s status to Active or Inactive.
-Save the user.
-Edit and Delete:
-Modify user details using the Edit button or remove users via the Delete option in the table.
-
-LocalStorage Use:
-All user and role data are stored in the browser's localStorage, allowing for persistence across sessions without needing a backend.
-
+Click Add User, fill out the form, and assign a role from the dropdown.
+Set the user’s status to Active/Inactive and save the user.
+Edit or Delete
+Use the Edit button to modify user details.
+Use the Delete button to remove users or roles.
+LocalStorage Integration
+Data is stored in the browser’s localStorage, ensuring persistence even after refreshing the page.
 Usage
-Manage Users: Add, modify, or delete user records.
-Configure Roles: Define roles and assign specific permissions.
-Adjust Permissions: Easily update role-based permissions through the interface.
+Manage Users: Add, edit, or delete user records.
+Configure Roles: Define roles and customize their permissions.
+Adjust Permissions: Update permissions dynamically with ease.
 Acknowledgments
-This project provided an incredible learning experience, helping me gain knowledge in React development and system design. I look forward to contributing further to VRV Security or similar innovative projects in the future.
+This project has been a great learning experience, enhancing my understanding of React development and system design. I look forward to contributing to similar innovative projects in the future.
