@@ -32,7 +32,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/username/RBAC-System.git
+git clone https://github.com/dubeyhars/RBAC-UI.git
 Install dependencies:
 
 bash
